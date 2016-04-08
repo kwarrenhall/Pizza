@@ -3,7 +3,18 @@
   background-image: url(../img/pizza2.jpg);
 }
 
-.button-wrapper .btn {
+/*body {
+background-image: url("../img/guggenheim.jpeg");
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
+
+.btn {
     margin-top: 50px;
     margin-bottom:50px;
 }
@@ -19,4 +30,8 @@
 p {
   font-weight: bold;
 
+}
+
+h4 {
+  font-style: italic;
 }

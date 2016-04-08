@@ -15,86 +15,84 @@
           <h1>Acme Pizza</h1>
           </header>
         </div>
-
-            <h1>Order Your Pizza >>></h1>
-          <div class="row">
-            <h4>Please select the following:<h4>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="http://static1.squarespace.com/static/5277edf6e4b0ffc77a666089/528e5b32e4b0a7e9d8b24bc2/528e5be0e4b0458933132229/1386612739712/acme_logo.png?format=1500w" alt="Common Thread Projects logo for a resteraunt in NYNY " />
           </div>
-          <form id = "pizza">
-  <!--Size selectors  -->
-          <h3>Size</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="optionsRadios1" id="small" value= "10">
-              Small
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="optionsRadios2" id="Medium" value= "15" >
-              Medium
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="optionsRadios3" id="Large" value= "20" >
-              Large
-            </label>
-          </div>
-          <!--Topping-meat selectors  -->
-                  <h3>Toppings</h3>
-                  <p>Meat</p>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="optionsRadios4" id="Pepperoni" value= "5">
-                      Pepperoni
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="optionsRadios5" id="Sausage" value= "5" >
-                      Sausage
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="optionsRadios6" id="Bacon" value= "5" >
-                      Bacon
-                    </label>
-                  </div>
-          <!--Topping-veggie selectors  -->
-                  <p>Veggies</p>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="optionsRadios7" id="Mushrooms" value= "2">
-                      Mushrooms
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="optionsRadios8" id="Jalapeno" value= "2" >
-                      Jalapeno
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="optionsRadios9" id="Peppers" value= "2" >
-                      Peppers
-                    </label>
-                  </div>
-          <div class="row">
-            <div class="col-md-12">
-                <button type="submit" id="button" class="btn btn-primary">Order</button>
+          <div class="col-sm-6">
+            <h1>Customize Your Pizza</h1>
+            <h4>We make it how you like it.<h4>
+            <form id = "pizza">
+    <!--Size selectors  -->
+            <h3>Size</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios1" id="small" value= "10">
+                Small
+              </label>
             </div>
-          </div>
-        </form>
-
-          <div class="show-price">
-            <h3>Your Pizza Order</h3>
-            <p>Pizza</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios2" id="Medium" value= "15" >
+                Medium
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios3" id="Large" value= "20" >
+                Large
+              </label>
+            </div>
+            <!--Topping-meat selectors  -->
+                    <h3>Toppings</h3>
+                    <p>Meat</p>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios4" id="Pepperoni" value= "5">
+                        Pepperoni
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios5" id="Sausage" value= "5" >
+                        Sausage
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios6" id="Bacon" value= "5" >
+                        Bacon
+                      </label>
+                    </div>
+            <!--Topping-veggie selectors  -->
+                    <p>Veggies</p>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios7" id="Mushrooms" value= "2">
+                        Mushrooms
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios8" id="Jalapeno" value= "2" >
+                        Jalapeno
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios9" id="Peppers" value= "2" >
+                        Peppers
+                      </label>
+                    </div>
+                  <button type="submit" id="button" class="btn btn-secondary">Order</button>
+            </form>
+            <div class="show-price">
+              <h3>Your Pizza Order</h3>
+              <p>Pizza</p>
               <ul><span id="pizzaOrder"></span></ul>
-            <p>Price</p>
+              <p>Price</p>
               <ul><span id="pizzaPrice"></span></ul>
+            </div>
           </div>
       </div>
     </body>
