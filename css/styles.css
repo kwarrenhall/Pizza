@@ -1,0 +1,17 @@
+
+.jumbotron {
+  background-image: url(../img/pizza2.jpg);
+}
+
+.button-wrapper .btn {
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+/*.show-price {
+  display: none;
+}*/
+
+#secondtopping {
+  margin-top: 40px;
+}
