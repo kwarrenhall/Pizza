@@ -11,13 +11,31 @@ Pizza.prototype.price = function(userSelection) {
     // var inp=document.getElementsByTagName("input")
     var inp = userSelection;
     for (var i=0, sum=0;i < inp.length; i++) {
-        Values +=inp[i].name+" = " + inp[i].value+"\n"
-        if (inp[i].checked) {Total+=parseInt(inp[i].value)}
+      Values +=inp[i].name+" = " + inp[i].value+"\n"
+      if (inp[i].checked) {
+        Total+=parseInt(inp[i].value)
+      }
+      if (inp[i].checked) {
+        Values+=(inp[i].name)
+      }
     }
     return Total;
   }
 
-
+  Pizza.prototype.Selections = function(userSelection) {
+      var Values ="";
+      var Total=0; // base value
+      // var inp=document.getElementsByTagName("input")
+      var inp = userSelection;
+      for (var i=0; i < inp.length; i++) {
+        // Values +=inp[i].name+" = " + inp[i].value+"\n"
+        if (inp[i].checked) {
+          // Values+=(inp[i].id)
+          Values+=inp[i].id + " , ";
+        }
+      }
+      return Values;
+    }
 
 // User Interface//
 $(document).ready(function() {
@@ -40,18 +58,19 @@ $(document).ready(function() {
       var price = newPizza.price(userSelection);
       console.log(price);
 
+      console.log(newPizza.Selections(userSelection));
+
 //8. create text to alert if size not selected
     // if (pizzaSize === "" || pizzaTopping === "") {
     //   return alert("Please make all selections");
     //   $(".show-price").hide();
     // }
 
-//10. result to html
-// $(".show-price").hide();
-//   $(".show-price").show();
-//   $("#showPizzaSize").text(" " + pizzaSize);
-//   $("#pizzaPrice").text(" $" + price);
+// 10. result to html
+$(".show-price").hide();
+  $(".show-price").show();
+  $("#showPizzaSize").text(" " + pizzaSize);
+  $("#pizzaPrice").text(" $" + price);
 
-  //
 });
 });

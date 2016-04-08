@@ -8,10 +8,15 @@
     margin-bottom:50px;
 }
 
-/*.show-price {
+.show-price {
   display: none;
-}*/
+}
 
 #secondtopping {
   margin-top: 40px;
+}
+
+p {
+  font-weight: bold;
+
 }
