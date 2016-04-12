@@ -12,7 +12,7 @@ selections of toppings are collected and appended to results section using a loo
 
 
 ## setup
-The application can be installed by cloning the project from GitHub.
+The application can be installed by cloning the project from GitHub, or at http://kwarrenhall.github.io/Pizza/.
 
 ## Technology used:
 Application: JavaScript, jQuery, HTML5, CSS3

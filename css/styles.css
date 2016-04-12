@@ -1,20 +1,50 @@
-
+/*
 .jumbotron {
   background-image: url(../img/pizza2.jpg);
+  opacity: .5;
+}*/
+
+
+/*#header {
+  max-height: 150px;
+}*/
+
+
+#row1 {
+  max-height: 200px;
 }
 
-/*body {
-background-image: url("../img/guggenheim.jpeg");
+#image {
+  opacity: .5;
+
+}
+
+#picture {
+  width: cover;
+
+  }
+
+#custom {
+border-left: 2.5px solid #e6e6e6;
+/*border-width: thin;*/
+
+margin-top: 20px;
+
+}
+
+
+/*background-image: url("../img/guggenheim.jpeg");
 background-repeat: no-repeat;
 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  opacity: .8;
 }*/
 
 
 
-.btn {
+#button {
     margin-top: 50px;
     margin-bottom:50px;
 }
